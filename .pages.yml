@@ -2,8 +2,8 @@ media:
   input: public
   output: /
 content:
-  - name: posts
-    label: Posts
+  - name: pies
+    label: Pies
     type: collection
     path: src/content/blog
     view:
@@ -20,6 +20,7 @@ content:
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
+      - { name: image, label: Image, type: media }
   - name: about
     label: About page
     type: file
